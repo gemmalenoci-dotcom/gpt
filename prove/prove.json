@@ -1,0 +1,73 @@
+{
+ "partenza": {
+  "tu": "partenza-tu.jpg"
+ },
+ "prove": {
+  "beforeafter": {
+   "dopo": "beforeafter-dopo.jpg"
+  },
+  "behindthescenes": {
+   "dopo": "behindthescenes-dopo.jpg"
+  },
+  "bookcover": {
+   "dopo": "bookcover-dopo.jpg"
+  },
+  "bossvibe": {
+   "dopo": "bossvibe-dopo.jpg"
+  },
+  "candidshot": {
+   "dopo": "candidshot-dopo.jpg"
+  },
+  "doubleexposure": {
+   "dopo": "doubleexposure-dopo.jpg"
+  },
+  "editorialportrait": {
+   "dopo": "editorialportrait-dopo.jpg"
+  },
+  "expertlook": {
+   "dopo": "expertlook-dopo.jpg"
+  },
+  "goldenhour": {
+   "dopo": "goldenhour-dopo.jpg"
+  },
+  "magazinecover": {
+   "dopo": "magazinecover-dopo.jpg"
+  },
+  "moodboard": {
+   "dopo": "moodboard-dopo.jpg"
+  },
+  "movieposter": {
+   "dopo": "movieposter-dopo.jpg"
+  },
+  "personalbrand": {
+   "dopo": "personalbrand-dopo.jpg"
+  },
+  "photoseries": {
+   "dopo": "photoseries-dopo.jpg"
+  },
+  "reelcover": {
+   "dopo": "reelcover-dopo.jpg"
+  },
+  "ricettafeed": {
+   "dopo": "ricettafeed-dopo.jpg"
+  },
+  "softportrait": {
+   "dopo": "softportrait-dopo.jpg"
+  },
+  "stickersheet": {
+   "dopo": "stickersheet-dopo.jpg"
+  },
+  "storyframe": {
+   "dopo": "storyframe-dopo.jpg"
+  },
+  "thumbnail": {
+   "dopo": "thumbnail-dopo.jpg"
+  },
+  "windowlight": {
+   "dopo": "windowlight-dopo.jpg"
+  },
+  "workspace": {
+   "dopo": "workspace-dopo.jpg"
+  }
+ }
+}
