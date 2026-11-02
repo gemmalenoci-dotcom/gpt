@@ -3,6 +3,10 @@
   "tu": "partenza-tu.jpg"
  },
  "prove": {
+  "anatomy": {
+   "dopo": "anatomy-dopo.jpg",
+   "prima": "anatomy-prima.jpg"
+  },
   "beforeafter": {
    "dopo": "beforeafter-dopo.jpg"
   },
@@ -27,6 +31,10 @@
   "expertlook": {
    "dopo": "expertlook-dopo.jpg"
   },
+  "explodedview": {
+   "dopo": "explodedview-dopo.jpg",
+   "prima": "explodedview-prima.jpg"
+  },
   "goldenhour": {
    "dopo": "goldenhour-dopo.jpg"
   },
@@ -44,6 +52,10 @@
   },
   "photoseries": {
    "dopo": "photoseries-dopo.jpg"
+  },
+  "pov": {
+   "dopo": "pov-dopo.jpg",
+   "prima": "pov-prima.jpg"
   },
   "reelcover": {
    "dopo": "reelcover-dopo.jpg"
