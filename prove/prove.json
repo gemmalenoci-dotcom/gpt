@@ -22,6 +22,9 @@
   "candidshot": {
    "dopo": "candidshot-dopo.jpg"
   },
+  "closeup": {
+   "dopo": "closeup-dopo.jpg"
+  },
   "doubleexposure": {
    "dopo": "doubleexposure-dopo.jpg"
   },
@@ -37,6 +40,9 @@
   },
   "goldenhour": {
    "dopo": "goldenhour-dopo.jpg"
+  },
+  "headshot": {
+   "dopo": "headshot-dopo.jpg"
   },
   "magazinecover": {
    "dopo": "magazinecover-dopo.jpg"
