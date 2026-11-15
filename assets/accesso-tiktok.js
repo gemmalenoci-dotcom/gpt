@@ -3,7 +3,7 @@
    La mail va nel gruppo MailerLite della risorsa (modulo del sito, senza doppia conferma).
    Per una risorsa nuova basta il tag nella pagina, con l'endpoint del suo modulo:
    <script src="assets/accesso-tiktok.js?v=1" data-risorsa="motion" data-endpoint="https://assets.mailerlite.com/jsonp/2697895/forms/<ID modulo>/subscribe"></script>
-   Opzioni (15/11/2026): data-fonte="MONTAGGIO" salva il campo Fonte in MailerLite (serve quando il modulo è uno solo per tutte le risorse, gruppo «TikTok · risorse»)
+   Opzioni (15/11/2026): data-fonte="MONTAGGIO" salva il campo Fonte in MailerLite (serve quando il modulo è uno solo per tutte le risorse, gruppo «TikTok · risorse») e anche il campo risorsa_link (link della risorsa con utm email: la mail automatica «TikTok · risorse · guida subito» lo usa per il pulsante «Riapri la risorsa»)
    · data-em="si apre lo strumento" cambia la parte corsiva del titolo · data-promessa="…" cambia la frase sotto il titolo · data-bottone="Apri lo strumento" · data-logo="URL" se la risorsa non ha assets/logo/logo.webp */
 (function(){
   var tag=document.currentScript;
@@ -90,7 +90,7 @@
     dati.append('fields[email]',email);
     dati.append('fields[name]',nome);
     if(tt)dati.append('fields[tiktok]',tt);
-    if(FONTE)dati.append('fields[fonte]',FONTE);
+    if(FONTE){dati.append('fields[fonte]',FONTE);dati.append('fields[risorsa_link]',location.origin+'/?utm_source=email&utm_medium=mailerlite&utm_campaign='+RISORSA+'&utm_content=tiktok')}
     dati.append('ml-submit','1');
     dati.append('anticsrf','true');
     var chiudi=function(){
