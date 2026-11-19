@@ -3,15 +3,36 @@
   "tu": "partenza-tu.jpg"
  },
  "prove": {
+  "35mm": {
+   "dopo": "35mm-dopo.jpg"
+  },
+  "35mmlens": {
+   "dopo": "35mmlens-dopo.jpg"
+  },
+  "85mmlens": {
+   "dopo": "85mmlens-dopo.jpg"
+  },
+  "actionfigure": {
+   "dopo": "actionfigure-dopo.jpg"
+  },
   "anatomy": {
    "dopo": "anatomy-dopo.jpg",
    "prima": "anatomy-prima.jpg"
+  },
+  "backlit": {
+   "dopo": "backlit-dopo.jpg"
   },
   "beforeafter": {
    "dopo": "beforeafter-dopo.jpg"
   },
   "behindthescenes": {
    "dopo": "behindthescenes-dopo.jpg"
+  },
+  "birdseyeview": {
+   "dopo": "birdseyeview-dopo.jpg"
+  },
+  "blackandwhite": {
+   "dopo": "blackandwhite-dopo.jpg"
   },
   "bookcover": {
    "dopo": "bookcover-dopo.jpg"
@@ -22,14 +43,32 @@
   "candidshot": {
    "dopo": "candidshot-dopo.jpg"
   },
+  "caricature": {
+   "dopo": "caricature-dopo.jpg"
+  },
+  "cinematic": {
+   "dopo": "cinematic-dopo.jpg"
+  },
+  "claymation": {
+   "dopo": "claymation-dopo.jpg"
+  },
   "closeup": {
    "dopo": "closeup-dopo.jpg"
+  },
+  "crochet": {
+   "dopo": "crochet-dopo.jpg"
   },
   "doubleexposure": {
    "dopo": "doubleexposure-dopo.jpg"
   },
+  "dramaticlight": {
+   "dopo": "dramaticlight-dopo.jpg"
+  },
   "editorialportrait": {
    "dopo": "editorialportrait-dopo.jpg"
+  },
+  "emoji": {
+   "dopo": "emoji-dopo.jpg"
   },
   "expertlook": {
    "dopo": "expertlook-dopo.jpg"
@@ -38,26 +77,71 @@
    "dopo": "explodedview-dopo.jpg",
    "prima": "explodedview-prima.jpg"
   },
+  "foregroundframe": {
+   "dopo": "foregroundframe-dopo.jpg"
+  },
   "goldenhour": {
    "dopo": "goldenhour-dopo.jpg"
   },
   "headshot": {
    "dopo": "headshot-dopo.jpg"
   },
+  "heroangle": {
+   "dopo": "heroangle-dopo.jpg"
+  },
+  "highangle": {
+   "dopo": "highangle-dopo.jpg"
+  },
+  "keychain": {
+   "dopo": "keychain-dopo.jpg"
+  },
+  "latteart": {
+   "dopo": "latteart-dopo.jpg"
+  },
+  "longexposure": {
+   "dopo": "longexposure-dopo.jpg"
+  },
+  "lookbook": {
+   "dopo": "lookbook-dopo.jpg"
+  },
+  "lowangle": {
+   "dopo": "lowangle-dopo.jpg"
+  },
   "magazinecover": {
    "dopo": "magazinecover-dopo.jpg"
+  },
+  "mediumshot": {
+   "dopo": "mediumshot-dopo.jpg"
+  },
+  "minime": {
+   "dopo": "minime-dopo.jpg"
   },
   "moodboard": {
    "dopo": "moodboard-dopo.jpg"
   },
+  "moody": {
+   "dopo": "moody-dopo.jpg"
+  },
   "movieposter": {
    "dopo": "movieposter-dopo.jpg"
+  },
+  "neonlight": {
+   "dopo": "neonlight-dopo.jpg"
+  },
+  "noir": {
+   "dopo": "noir-dopo.jpg"
   },
   "personalbrand": {
    "dopo": "personalbrand-dopo.jpg"
   },
   "photoseries": {
    "dopo": "photoseries-dopo.jpg"
+  },
+  "plushie": {
+   "dopo": "plushie-dopo.jpg"
+  },
+  "polaroid": {
+   "dopo": "polaroid-dopo.jpg"
   },
   "pov": {
    "dopo": "pov-dopo.jpg",
@@ -69,8 +153,20 @@
   "ricettafeed": {
    "dopo": "ricettafeed-dopo.jpg"
   },
+  "scrapbook": {
+   "dopo": "scrapbook-dopo.jpg"
+  },
+  "shallowdepthoffield": {
+   "dopo": "shallowdepthoffield-dopo.jpg"
+  },
+  "softlight": {
+   "dopo": "softlight-dopo.jpg"
+  },
   "softportrait": {
    "dopo": "softportrait-dopo.jpg"
+  },
+  "statue": {
+   "dopo": "statue-dopo.jpg"
   },
   "stickersheet": {
    "dopo": "stickersheet-dopo.jpg"
@@ -81,11 +177,17 @@
   "thumbnail": {
    "dopo": "thumbnail-dopo.jpg"
   },
+  "wideshot": {
+   "dopo": "wideshot-dopo.jpg"
+  },
   "windowlight": {
    "dopo": "windowlight-dopo.jpg"
   },
   "workspace": {
    "dopo": "workspace-dopo.jpg"
+  },
+  "yearbook": {
+   "dopo": "yearbook-dopo.jpg"
   }
  }
 }
