@@ -1,5 +1,6 @@
 {
  "partenza": {
+  "prodotto": "partenza-prodotto.jpg",
   "tu": "partenza-tu.jpg"
  },
  "prove": {
@@ -9,15 +10,24 @@
   "35mmlens": {
    "dopo": "35mmlens-dopo.jpg"
   },
+  "3dbillboard": {
+   "dopo": "3dbillboard-dopo.jpg"
+  },
   "85mmlens": {
    "dopo": "85mmlens-dopo.jpg"
   },
   "actionfigure": {
    "dopo": "actionfigure-dopo.jpg"
   },
+  "adcreative": {
+   "dopo": "adcreative-dopo.jpg"
+  },
   "anatomy": {
    "dopo": "anatomy-dopo.jpg",
    "prima": "anatomy-prima.jpg"
+  },
+  "annotated": {
+   "dopo": "annotated-dopo.jpg"
   },
   "backlit": {
    "dopo": "backlit-dopo.jpg"
@@ -33,6 +43,9 @@
   },
   "blackandwhite": {
    "dopo": "blackandwhite-dopo.jpg"
+  },
+  "blueprint": {
+   "dopo": "blueprint-dopo.jpg"
   },
   "bookcover": {
    "dopo": "bookcover-dopo.jpg"
@@ -58,6 +71,9 @@
   "crochet": {
    "dopo": "crochet-dopo.jpg"
   },
+  "cutaway": {
+   "dopo": "cutaway-dopo.jpg"
+  },
   "doubleexposure": {
    "dopo": "doubleexposure-dopo.jpg"
   },
@@ -77,11 +93,17 @@
    "dopo": "explodedview-dopo.jpg",
    "prima": "explodedview-prima.jpg"
   },
+  "flatlay": {
+   "dopo": "flatlay-dopo.jpg"
+  },
   "foregroundframe": {
    "dopo": "foregroundframe-dopo.jpg"
   },
   "goldenhour": {
    "dopo": "goldenhour-dopo.jpg"
+  },
+  "handwritten": {
+   "dopo": "handwritten-dopo.jpg"
   },
   "headshot": {
    "dopo": "headshot-dopo.jpg"
@@ -92,11 +114,26 @@
   "highangle": {
    "dopo": "highangle-dopo.jpg"
   },
+  "infographic": {
+   "dopo": "infographic-dopo.jpg"
+  },
+  "inhand": {
+   "dopo": "inhand-dopo.jpg"
+  },
+  "isometric": {
+   "dopo": "isometric-dopo.jpg"
+  },
   "keychain": {
    "dopo": "keychain-dopo.jpg"
   },
+  "knolling": {
+   "dopo": "knolling-dopo.jpg"
+  },
   "latteart": {
    "dopo": "latteart-dopo.jpg"
+  },
+  "logogrid": {
+   "dopo": "logogrid-dopo.jpg"
   },
   "longexposure": {
    "dopo": "longexposure-dopo.jpg"
@@ -106,6 +143,9 @@
   },
   "lowangle": {
    "dopo": "lowangle-dopo.jpg"
+  },
+  "macro": {
+   "dopo": "macro-dopo.jpg"
   },
   "magazinecover": {
    "dopo": "magazinecover-dopo.jpg"
@@ -125,11 +165,17 @@
   "movieposter": {
    "dopo": "movieposter-dopo.jpg"
   },
+  "napkinsketch": {
+   "dopo": "napkinsketch-dopo.jpg"
+  },
   "neonlight": {
    "dopo": "neonlight-dopo.jpg"
   },
   "noir": {
    "dopo": "noir-dopo.jpg"
+  },
+  "packaging": {
+   "dopo": "packaging-dopo.jpg"
   },
   "personalbrand": {
    "dopo": "personalbrand-dopo.jpg"
@@ -147,17 +193,29 @@
    "dopo": "pov-dopo.jpg",
    "prima": "pov-prima.jpg"
   },
+  "productexplosion": {
+   "dopo": "productexplosion-dopo.jpg"
+  },
+  "productshot": {
+   "dopo": "productshot-dopo.jpg"
+  },
   "reelcover": {
    "dopo": "reelcover-dopo.jpg"
   },
   "ricettafeed": {
    "dopo": "ricettafeed-dopo.jpg"
   },
+  "schematic": {
+   "dopo": "schematic-dopo.jpg"
+  },
   "scrapbook": {
    "dopo": "scrapbook-dopo.jpg"
   },
   "shallowdepthoffield": {
    "dopo": "shallowdepthoffield-dopo.jpg"
+  },
+  "showcase": {
+   "dopo": "showcase-dopo.jpg"
   },
   "softlight": {
    "dopo": "softlight-dopo.jpg"
@@ -177,6 +235,15 @@
   "thumbnail": {
    "dopo": "thumbnail-dopo.jpg"
   },
+  "timeline": {
+   "dopo": "timeline-dopo.jpg"
+  },
+  "uimockup": {
+   "dopo": "uimockup-dopo.jpg"
+  },
+  "whiteboard": {
+   "dopo": "whiteboard-dopo.jpg"
+  },
   "wideshot": {
    "dopo": "wideshot-dopo.jpg"
   },
@@ -185,6 +252,9 @@
   },
   "workspace": {
    "dopo": "workspace-dopo.jpg"
+  },
+  "xray": {
+   "dopo": "xray-dopo.jpg"
   },
   "yearbook": {
    "dopo": "yearbook-dopo.jpg"
