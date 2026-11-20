@@ -202,8 +202,20 @@
   "reelcover": {
    "dopo": "reelcover-dopo.jpg"
   },
+  "ricettacarosello": {
+   "dopo": "ricettacarosello-dopo.jpg"
+  },
   "ricettafeed": {
    "dopo": "ricettafeed-dopo.jpg"
+  },
+  "ricettaprodotto": {
+   "dopo": "ricettaprodotto-dopo.jpg"
+  },
+  "ricettareel": {
+   "dopo": "ricettareel-dopo.jpg"
+  },
+  "ricettatrend": {
+   "dopo": "ricettatrend-dopo.jpg"
   },
   "schematic": {
    "dopo": "schematic-dopo.jpg"
