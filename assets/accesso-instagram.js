@@ -1,7 +1,7 @@
 /* Anteprima e poi «lascia la mail» per chi arriva dai DM di Instagram (20/11/2026, TEST su gpt)
    La pagina si apre normale: appena si scorre un poco (60 px) tutto si sfoca e compare la richiesta della mail, la pagina resta ferma finché non la si lascia.
    Si vede SOLO con ?utm_source=instagram&utm_medium=dm (il pulsante del DM di ManyChat porta lì): chi arriva da altrove, dal sito o da TikTok (ha la sua finestra) non vede niente.
-   La mail va nello stesso modulo MailerLite del cancello TikTok (gruppo «TikTok · risorse», campo Fonte = data-fonte): per ora è un test, se funziona si crea un gruppo a parte per Instagram.
+   La mail va nel modulo MailerLite della risorsa su Instagram (per GPT: gruppo «IG · GPT», modulo 204645608398522045, doppia conferma spenta a mano); il campo Fonte = data-fonte. Per una risorsa nuova: un modulo per il suo gruppo «IG · <RISORSA>».
    Tag nella pagina (prima di </body>):
    <script src="assets/accesso-instagram.js?v=1" data-risorsa="gpt" data-fonte="GPT" data-endpoint="https://assets.mailerlite.com/jsonp/2697895/forms/<ID modulo>/subscribe"></script>
    Opzioni: data-em (parte corsiva del titolo) · data-promessa (frase sotto il titolo) · data-bottone · data-logo (se la risorsa non ha assets/logo/logo.webp) · data-soglia (pixel di scorrimento, 60) */
@@ -30,11 +30,11 @@
 
   var css=document.createElement('style');
   css.textContent=
-    '#accesso-ig{position:fixed;inset:0;z-index:99999;display:flex;align-items:center;justify-content:center;padding:20px;overflow:auto;background:rgba(243,242,238,.45);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);opacity:0;transition:opacity .4s ease;font-family:"Open Sauce Sans",system-ui,sans-serif;color:#3B3638}'+
+    '#accesso-ig{position:fixed;inset:0;z-index:99999;display:flex;padding:20px;overflow:auto;background:rgba(243,242,238,.45);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);opacity:0;transition:opacity .4s ease;font-family:"Open Sauce Sans",system-ui,sans-serif;color:#3B3638}'+
     '#accesso-ig.on{opacity:1}'+
     '@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){#accesso-ig{background:rgba(243,242,238,.95)}}'+
     '@media(prefers-reduced-motion:reduce){#accesso-ig{transition:none}}'+
-    '#accesso-ig .ac-box{width:100%;max-width:480px;background:#fff;border:2px solid #3B3638;border-radius:22px;padding:34px 28px;display:block;grid-template-columns:none;box-shadow:6px 8px 0 '+ombra+'}'+
+    '#accesso-ig .ac-box{margin:auto;width:100%;max-width:480px;background:#fff;border:2px solid #3B3638;border-radius:22px;padding:34px 28px;display:block;grid-template-columns:none;box-shadow:6px 8px 0 '+ombra+'}'+
     '#accesso-ig .ac-bollino{display:inline-block;font-weight:800;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:'+accento+';margin-bottom:12px}'+
     '#accesso-ig .ac-logo{display:block;width:210px;max-width:72%;height:auto;margin:0 0 22px}'+
     '#accesso-ig h2{font-family:"Open Sauce Sans",system-ui,sans-serif;font-weight:900;font-size:30px;line-height:1.08;letter-spacing:-.045em;margin:0 0 12px;color:#3B3638}'+
@@ -49,7 +49,7 @@
     '#accesso-ig button[disabled]{opacity:.6;cursor:wait}'+
     '#accesso-ig .ac-errore{color:#B3261E;font-size:14px;min-height:18px;margin:0 0 10px}'+
     '#accesso-ig .ac-piccolo{font-size:13px;margin:14px 0 0;color:#665E61}'+
-    '@media(max-width:600px){#accesso-ig{padding-bottom:200px}}'+
+    '@media(max-width:600px){#accesso-ig{padding-bottom:200px}#accesso-ig .ac-box{padding:24px 20px}#accesso-ig .ac-logo{width:170px;margin-bottom:14px}#accesso-ig h2{font-size:26px}#accesso-ig input[type=text],#accesso-ig input[type=email]{padding:12px 16px;margin:4px 0 10px}}'+
     'body.accesso-aperto{overflow:hidden}';
   document.head.appendChild(css);
 
